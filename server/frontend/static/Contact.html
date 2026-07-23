@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Dealerships</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/contact/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Information -->
+    <div class="container mt-5">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please reach out to us using the information below.</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>Our Address</h3>
+                <p>
+                    Best Cars Dealership<br>
+                    123 Main Street<br>
+                    New York, NY 10001<br>
+                    USA
+                </p>
+                <h3>Phone</h3>
+                <p>+1 (800) 555-1234</p>
+                <h3>Email</h3>
+                <p>info@bestcars.com</p>
+                <h3>Business Hours</h3>
+                <p>
+                    Monday - Friday: 9:00 AM - 8:00 PM<br>
+                    Saturday: 10:00 AM - 6:00 PM<br>
+                    Sunday: Closed
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h3>Send us a message</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
